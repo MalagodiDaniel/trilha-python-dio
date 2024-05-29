@@ -8,10 +8,10 @@ menu = """
 => """
 
 saldo = 0
-limite = 500
+limite = 1000
 extrato = ""
 numero_saques = 0
-LIMITE_SAQUES = 3
+LIMITE_SAQUES = 4
 
 while True:
 
@@ -57,7 +57,7 @@ while True:
         print("\n================ EXTRATO ================")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\nSaldo: R$ {saldo:.2f}")
-        print("==========================================")
+        print("===============================")
 
     elif opcao == "q":
         break
